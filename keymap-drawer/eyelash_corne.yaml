@@ -239,12 +239,12 @@ layers:
   - {t: ., s: '>'}
   - '&td0'
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: LGUI, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: 'Gui+$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - MAC_NU
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - MAC_SY
-  - Gui+$$mdi:arrow-right-bold$$
+  - LGUI
   MAC_NU:
   - F2
   - {t: '1', s: '!'}
@@ -260,11 +260,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
-  - Ctl+A
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - Sft+Gui+S
   - $$mdi:backspace-reverse-outline$$
-  - Ctl+F
-  - HOME
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -275,11 +275,11 @@ layers:
   - $$mdi:volume-high$$
   - PRINTSCREEN
   - $$mdi:apple-keyboard-caps$$
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - Ctl+Gui+X
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - Ctl+V
-  - END
+  - Gui+$$mdi:arrow-right-bold$$
   - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -292,7 +292,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MAC_Fn
   - {t: '$$mdi:transfer$$', type: trans}
   MAC_SY:
   - {t: '`', s: '~'}
@@ -338,7 +338,7 @@ layers:
   - {t: \, s: '|'}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MAC_Fn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -385,10 +385,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
-  - PAUSE BREAK
+  - {t: MAC, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
