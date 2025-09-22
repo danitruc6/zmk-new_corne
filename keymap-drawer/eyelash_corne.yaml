@@ -278,7 +278,7 @@ layers:
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Ctl+Gui+X
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - Ctl+V
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - Gui+$$mdi:arrow-right-bold$$
   - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
