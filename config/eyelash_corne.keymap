@@ -74,6 +74,13 @@
             bindings = <&kp LS(Z) &kp X &kp W &kp E &kp N5 &kp N6 &kp N3 &kp N4 &kp EXCL>;
             label = "PW_MACRO";
         };
+
+        num_comb: num_comb {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N5 &kp N6 &kp N3 &kp N4>;
+            label = "NUM_COMB";
+        };
     };
 
     keymap {
@@ -146,10 +153,10 @@
         mac_lower_layer {
             display-name = "MAC_NU";
             bindings = <
-&kp F2    &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                                            &mmv MOVE_UP                     &kp N6    &kp N7     &kp N8  &kp N9     &kp N0             &trans
-&kp TAB   &kp LG(A)  &kp LS(LG(S))  &kp DEL    &kp LG(F)  &kp LG(LEFT)                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &kp C_VOLUME_UP    &kp PRINTSCREEN
-&kp CAPS  &kp LG(Z)  &kp LG(X)      &kp LG(C)  &kp LG(V)  &kp LG(RIGHT)  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &trans    &pw_macro  &trans  &kp LG(L)  &kp C_VOLUME_DOWN  &kp C_MUTE
-                                    &kp LGUI   &trans     &trans                                                                             &trans    &mo 7      &trans
+&kp F2    &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                                            &mmv MOVE_UP                     &kp N6     &kp N7     &kp N8  &kp N9     &kp N0             &trans
+&kp TAB   &kp LG(A)  &kp LS(LG(S))  &kp DEL    &kp LG(F)  &kp LG(LEFT)                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT  &kp C_VOLUME_UP    &kp PRINTSCREEN
+&kp CAPS  &kp LG(Z)  &kp LG(X)      &kp LG(C)  &kp LG(V)  &kp LG(RIGHT)  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &num_comb  &pw_macro  &trans  &kp LG(L)  &kp C_VOLUME_DOWN  &kp C_MUTE
+                                    &kp LGUI   &trans     &trans                                                                             &trans     &mo 7      &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
