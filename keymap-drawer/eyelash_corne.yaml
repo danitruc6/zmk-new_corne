@@ -282,7 +282,7 @@ layers:
   - Gui+$$mdi:arrow-right-bold$$
   - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&num_comb'
   - '&pw_macro'
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+L
