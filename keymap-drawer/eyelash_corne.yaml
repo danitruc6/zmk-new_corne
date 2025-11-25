@@ -284,7 +284,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&num_comb'
   - '&pw_macro'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&user_name'
   - Gui+L
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
@@ -308,12 +308,12 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - RGB TOG
+  - RGB SPI
+  - RGB SAI
+  - RGB HUI
+  - RGB EFF
+  - RGB ON
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -324,11 +324,11 @@ layers:
   - {t: '`', s: '~'}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - OUT USB
-  - OUT BLE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB5'
+  - RGB SPD
+  - RGB SAD
+  - RGB HUD
+  - RGB EFR
+  - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
