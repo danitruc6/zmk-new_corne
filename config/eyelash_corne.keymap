@@ -108,10 +108,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp F2    &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                                       &mmv MOVE_UP                     &kp N6    &kp N7     &kp N8  &kp N9     &kp N0             &trans
-&kp TAB   &kp LC(A)  &kp LS(LG(S))  &kp DEL    &kp LC(F)  &kp HOME                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &kp C_VOLUME_UP    &kp PRINTSCREEN
-&kp CAPS  &kp LC(Z)  &kp LC(X)      &kp LC(C)  &kp LC(V)  &kp END   &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &trans    &pw_macro  &trans  &kp LG(L)  &kp C_VOLUME_DOWN  &kp C_MUTE
-                                    &kp LGUI   &trans     &trans                                                                        &trans    &trans     &trans
+&kp F2    &kp N1     &kp N2         &kp N3     &kp N4     &kp N5                                       &mmv MOVE_UP                     &kp N6           &kp N7     &kp N8  &kp N9     &kp N0             &trans
+&kp TAB   &kp LC(A)  &kp LS(LG(S))  &kp DEL    &kp LC(F)  &kp HOME                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN   &kp UP  &kp RIGHT  &kp C_VOLUME_UP    &kp PRINTSCREEN
+&kp CAPS  &kp LC(Z)  &kp LC(X)      &kp LC(C)  &kp LC(V)  &kp END   &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp LA(LC(DEL))  &pw_macro  &trans  &kp LG(L)  &kp C_VOLUME_DOWN  &kp C_MUTE
+                                    &kp LGUI   &trans     &trans                                                                        &trans           &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
