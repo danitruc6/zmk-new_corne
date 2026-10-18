@@ -86,7 +86,7 @@ layers:
   - END
   - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+$$mdi:backspace-reverse-outline$$
   - '&pw_macro'
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+L
